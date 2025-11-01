@@ -7,6 +7,7 @@ from constants import *
 from player import *
 from asteroid import *
 from asteroidfield import *
+from explosions import *
 
 
 def main():
@@ -49,6 +50,9 @@ def main():
                     shot.kill()
                     asteroid.kill()
                     score += 100
+                    explosion = Explosion(asteroid.position.x, asteroid.position.y)
+                    updatable.add(explosion)
+                    drawable.add(explosion)
 
         screen.fill("black")
 
