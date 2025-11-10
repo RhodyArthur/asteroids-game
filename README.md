@@ -50,6 +50,12 @@ uv run main.py
 - Destroying an asteroid gives you 100 points.
 - Your current score is displayed at the top-left of the screen.
 
+## Demo Video
+
+[Watch the gameplay video on](https://drive.google.com/file/d/1-k_Q8bnwYDzvHonv8B-V0P3iGVIpOivA/view?usp=sharing)
+
+- Additional features to be implemented soon
+
 ## License
 
 This project is open source and free to use for educational purposes.
